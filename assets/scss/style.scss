@@ -1,0 +1,59 @@
+header{
+    margin-top: 30px;
+    .left{
+        img{
+            width: 80%;
+            height: 100%;      
+        }
+    }
+    .right{
+        i{
+            font-size: 30px;
+        }
+       .nav-links{
+            background-image: url(/assets/img/colorful-fish-logo-ready-to-use-vector-25602195.jpg);
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat;
+            padding:0 100px;
+            opacity: 0;
+            transition: 1s;
+            background-color: rgb(243, 228, 200);
+            transform: translateX(-50px);
+        }
+        a{
+            color: rgb(12, 11, 11);
+            text-decoration: none;           
+        }
+        ul{
+        margin-top: 50px;
+        li{
+                margin-bottom: 10px;
+                list-style: none;
+                transition: .4s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+
+#intro {
+    margin:200px;
+    img{
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100%;
+    }
+}
+#color{
+    margin: 20% 0;
+    font-size: 20px;
+    .boxes{
+        margin-bottom: 50px;
+        width: 100%;
+        height: 250px;
+        background-color: gray;
+    }
+}
